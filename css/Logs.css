@@ -1,0 +1,54 @@
+.textbox:before{
+	content:"";
+ 	/*-webkit-filter: opacity(50%);  
+    filter: opacity(50%); */
+    /*background-color: #66CDAA;*/
+    opacity:1;//透明度设置
+ 	z-index:-1;
+ 	background-size:500px 300px;
+ 	width:500px; 
+ 	height:300px;
+ 	position:absolute;
+ 	//一定要设置position:absolute,这样才能设置z-index，让背景处于内容的下一层.
+ 	//“相对于”最近的已定位祖先元素，如果不存在已定位的祖先元素，那么“相对于”最初的包含块
+ 	top:0px;
+ 	left:0px;
+ 	border-radius:40px;
+
+}
+.textbox{
+	position:absolute;
+ 	left:40%;
+ 	top:200px;
+ 	width:25%;
+ 	height:31%;
+ 	-webkit-columns:100px 3;/*100px 3列*/
+ 	margin-left:-250px;
+ 	border-radius:40px;
+ 	box-shadow: 10px 10px 25px #888;
+ 	border:1px solid #fff;
+ 	text-align:center;
+}
+
+div.link ul{
+list-style-type: none;
+min-width:11%;
+max-height:1500px;
+text-decoration:none;/*取出下划线*/
+color:white;
+background-color:#689;
+position:absolute;
+left: 0;
+top: 10%;
+opacity: 0.8;
+}
+	div.link ul:hover{opacity: 1;}
+
+a 	{
+	text-decoration: none;
+	font-weight: bold;
+	}
+	a:link {color:orange;}    /* 未被访问的链接 */
+	a:visited {color:oran#08F627FFge;background-color: #D12D32;} /* 已被访问的链接 */
+	a:hover {color:#21DDAA;}   /* 鼠标指针移动到链接上 */
+	a:active {color:#0000FF;}  /* 正在被点击的链接 */
