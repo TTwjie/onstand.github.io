@@ -1,0 +1,300 @@
+body{
+	font-family: sans-serif;
+	/*background-image: linear-gradient(#024651,#1bbaac)*//*??????*/
+	background-image: url("C:/Users/Administrator/Desktop/My Web/onstand/image/howl-s-moving-castle.jpeg");
+	cursor:pointer;
+	background-repeat: no-repeat;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+/****************************************************************/
+@media screen
+{
+p.test {font-family:verdana,sans-serif; font-size:14px}
+}
+
+@media print
+{
+p.test {font-family:times,serif; font-size:10px}
+}
+
+@media screen,print
+{
+p.test {font-weight:bold}
+}
+
+/****************************************************************/
+#notop{
+	background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+
+}/*??????*/
+
+.logo{
+	height: 15	%;
+	width: 15%;
+}
+
+.navigation{
+	display: block;
+	box-shadow: 0 0 5px #BA445FFF;
+
+}
+
+.navbar .fa-mars-double{
+	color: #C0F;
+	font-size: 45px;
+}
+.fa-mars-double:hover{
+	opacity: .7;
+	color: #FF007FFF;
+	transition: 2s;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+.nav-link{
+	float: right;
+	margin-right: 8px !important;/*??important??Ը???????*/
+	margin-left: : 8px !important;
+	color: #E07;
+	padding: 5px 0 !important;
+	border-bottom: 2px solid transparent;
+}
+.nav-link:hover{
+	color:#EE10A9FF;
+	opacity: 0.8;
+	border-bottom: 2px solid #FFF;
+	transition: 1.2s;
+}
+
+.navbar-nav .demo-btn{
+	color: #fff;
+	padding: 8px 18px;
+	float: right;
+	background: #17E7B6FF;
+	border-bottom: transparent;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.container{
+	margin-top: 10%;
+}
+
+.description{
+	padding-top: 80px;
+	color: #fff;
+	margin-bottom: 15px; 
+}
+.description h1{
+	margin-bottom: 20px;
+}
+
+.description .btn{
+	color: #fff;
+	margin-top: 20px;
+	border-radius: 20px;
+	background: transparent;
+	border: 2px solid #fff;
+}
+.description .btn:hover{
+	border: 2px solid #5216c3;
+	background-color: #2675D8FF;
+	transition: 2.2s;
+}
+/****************************************************************/
+[class ~= footer1]{
+	padding:0.5em;
+	color:white;
+	background-color:gray;
+	clear:left;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	font-size: 20px;
+	height: 5%;
+	width: 8%;
+	opacity: .8;
+	}
+	div.footer1:hover{
+		opacity: 0.2;
+		transition: 2s;
+		border-radius: 15px;
+		color: rgba(255,255,255,0.01);
+		background-color: rgba(255,255,255,0.01);
+	}
+[class ~= footer2]{
+	padding:0.5em;
+	color:rgba(255,255,255,0.01);
+	background-color:rgba(255,255,255,0.01);
+	clear:left;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	font-size: 20px;
+	height: 5%;
+	width: 8%;
+	opacity: .00;
+	}
+	div.footer2:hover{
+		opacity: 0.8;
+		transition: 2s;
+		transition-delay: .5s;
+		border-radius: 15px;
+		color: white;
+		background-color: gray;
+	}
+/****************************************************************/
+h1 b{
+	/*z-index:-1;*/
+	opacity: .3;
+	letter-spacing: inherit;
+	left: 20%;
+	position:fixed;
+	animation:myfirst 10s;
+	-moz-animation:myfirst 10s; /* Firefox */
+	-webkit-animation:myfirst 10s; /* Safari and Chrome */
+	-o-animation:myfirst 10s; /* Opera */
+	-webkit-animation-iteration-count:infinite;/*播放次数无限*/
+	-webkit-animation-direction:alternate;/*下周期反向播放*/
+	/*简写-webkit-animation: myfirst 5s linear 2s infinite alternate;*/
+}
+	h1 b:hover{
+		opacity: .6; 
+		transition: 3s;		
+	}
+
+	@keyframes myfirst
+	{
+	0%   {color: red; -webkit-animation-timing-function:linear;}
+	25%  {color: yellow;-webkit-animation-timing-function:ease;}
+	50%  {color: blue;-webkit-animation-timing-function:ease-in;}
+	75%  {color: green;-webkit-animation-timing-function:ease-out;}
+	100% {color:gray;-webkit-animation-timing-function:ease-in-out;}}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+	0%   {color: red;-webkit-animation-timing-function:linear;}
+	25%  {color: yellow;-webkit-animation-timing-function:ease;}
+	50%  {color: blue;-webkit-animation-timing-function:ease-in;}
+	75%  {color:green;-webkit-animation-timing-function:ease-out;}
+	100% {color: gray;-webkit-animation-timing-function:ease-in-out;}
+	}
+/****************************************************************/
+.middle{
+	width: 18%;
+	position: fixed;
+	top: 35%;
+	left:10%;
+	transform: translate(-50%,-50%);
+}
+
+.meun{
+	width: 90%;
+	border-radius: 13px;
+	overflow: hidden;
+}
+
+.item{
+	border-top: 2px solid #5F44BAFF;
+	overflow: hidden;
+}
+
+.btn{
+	display: block;
+	padding:5% 5%;
+	background: rgb(16,205,238,0.2);
+	color: #fff;
+	position: relative;
+}
+
+.btn:before{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background: rgb(16,205,238,0.2);
+	left: 20px;
+	bottom: -7px;
+	transform: rotate(45deg);
+}/*小方块*/
+
+.btn i{
+	margin-right: 10px;
+}
+
+.smeun{
+	background: rgb(25,215,225,0.1);
+	overflow: hidden;
+	transition: max-height 0.5s;
+	max-height: 0;}
+
+	.item:hover .smeun{
+	max-height: 100em;
+	}/*导航伸缩*/
+
+.smeun a{
+	display: block;
+	padding: 16px 26px;
+	color: #fff;
+	font-size: 14px;
+	margin: 4px 0;
+	position: relative;
+}
+.smeun a:before{
+	content: "";
+	position: absolute;
+	width: 6px;
+	height: 100%;
+	background: #2F9FCFFF;
+	top: 0;
+	left: 0;
+	transition: .3s;
+	opacity: 0;
+}
+.smeun a:hover:before{
+	opacity: 1
+}
+/***********3级导航*****************
+.tmeun{
+	background: rgb(25,215,225,0.1);
+	overflow: hidden;
+	transition: max-height 0.5s;
+	max-height: 0;}
+
+	.item:hover .tmeun{
+	max-height: 100em;
+	}
+
+.tmeun a{
+	display: block;
+	padding: 16px 26px;
+	color: #fff;
+	font-size: 14px;
+	margin: 4px 0;
+	position: relative;
+}
+.tmeun a:before{
+	content: "";
+	position: absolute;
+	width: 6px;
+	height: 100%;
+	background: #2F9FCFFF;
+	top: 0;
+	left: 0;
+	transition: .3s;
+	opacity: 0;
+}
+.tmeun a:hover:before{
+	opacity: 1
+} 
+***************************************/
+

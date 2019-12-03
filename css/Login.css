@@ -5,7 +5,7 @@
 }
 
 body{
-	background: url("C:/Users/Administrator/Desktop/My Web/onstand/image/rance.jpg");
+	background: url("C:/Users/Administrator/Desktop/onstand/public/image/rance.jpg");
 	background-size: 100%;
 	font-family: sans-serif;
 	background-repeat: no-repeat;
@@ -120,7 +120,7 @@ body{
 	right: 0;
 	height: 0;
 	z-index: 1;
-	background:url("C:/Users/Administrator/Desktop/My Web/onstand/image/jp.jpeg");
+	background:url("C:/Users/Administrator/Desktop/onstand/public/image/jp.jpeg");
 	opacity: 0;
 	transition: 0.7s;
 	background-repeat: no-repeat;
