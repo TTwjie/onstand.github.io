@@ -137,7 +137,7 @@ body{
 	border-radius: 50%;
 }
 	#forgot-pw img:hover{
-	transform: rotate(360deg);/*æ—‹è½¬*/
+	transform: rotate(360deg);/*Ðý×ª*/
 	-ms-transform: rotate(360deg);		/* IE 9 */
 	-webkit-transform: rotate(360deg);	/* Safari and Chrome */
 	-o-transform: rotate(360deg);		/* Opera */
@@ -160,6 +160,20 @@ body{
 	text-decoration: none;
 	color: inherit;
 }
+
+[class ~= footer1]{
+	padding:0.5em;
+	color:white;
+	background-color:gray;
+	position: fixed;
+	text-align: center;
+	right: 0;
+	bottom: 0;
+	font-size: 15px;
+	height: 3%;
+	width: 100%;
+	opacity: .5;
+	}
 
 
 
